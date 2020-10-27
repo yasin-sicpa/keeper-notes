@@ -1,8 +1,7 @@
-import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Note from './components/Note';
-import "./styles.css";
+import '../src/styles.css';
 
 export default function App() {
   return (
