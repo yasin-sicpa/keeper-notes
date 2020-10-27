@@ -1,11 +1,17 @@
 import './App.css';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Note from './components/Note';
+import "./styles.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <p>HELLO WORLD</p>
+      <Header/>
+      <Note/>
+      <Footer/>
     </div>
   );
 }
 
-export default App;
+
